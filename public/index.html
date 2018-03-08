@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Birthday</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding:0px;
+		}
+		#title{
+			position: absolute;
+			top:8%;			
+			font-size: 40px;
+			font-family: 'kaiti';
+			text-align: center;
+			width: 100%;
+			color:#ff0080;
+			display: none;	
+		}
+		#video{
+			position: absolute;
+			top:18%;			
+			width: 100%;
+			text-align: center;		
+			display: none;	
+		}
+		video{
+			width:60%;			
+		}
+	</style>
+</head>
+<body>
+	<div id="title"></div>
+	<div id="video">
+		<video id="myVideo" src="/resource/birthday.mp4" preload="preload" controls="controls"></video>
+	</div>
+
+	<script type="text/javascript" src="/src/jquery.js"></script>
+	<script type="text/javascript" src="/src/index.js"></script>
+
+	<script type="text/javascript">			
+		var birthday = new Birthday();
+		birthday.init();
+	</script>
+</body>
+</html>
