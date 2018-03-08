@@ -1,8 +1,8 @@
 # Birthday
 using canvas and video with node.js to make a website for YueXin to celebrate the birthday.
 
-# StarUp
+## StarUp
 npm start
 
-# main
+## main
 localhost/index.html
